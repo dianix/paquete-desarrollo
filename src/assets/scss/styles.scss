@@ -1,5 +1,18 @@
 .hola {
-    & anidado {
-        color: red + blue;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.rojo {
+    height: 200px;
+    width: 200px;
+    background-color: aqua+green;
+    .azul {
+        height: 100px;
+        width: 100px;
+        background-color: blue+silver;
+        p {
+            color: ivory;
+        }
     }
 }
