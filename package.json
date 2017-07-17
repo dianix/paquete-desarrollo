@@ -1,0 +1,23 @@
+{
+  "name": "49-repaso-gulp",
+  "version": "1.0.0",
+  "description": "repaso de usos de gulp",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Diana Vazquez",
+  "license": "ISC"
+}
